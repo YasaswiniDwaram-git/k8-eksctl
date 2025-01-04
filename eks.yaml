@@ -5,7 +5,7 @@ metadata:
   name: expense-1
   region: us-east-1
 
-managednodeGroups: #usually there is managednodeGroups(managed by AWS) amd nodeGroups
+managedNodeGroups: #usually there is managednodeGroups(managed by AWS) amd nodeGroups
   - name: expense
     instanceType: m5.large
     desiredCapacity: 3
